@@ -92,9 +92,8 @@ a.rpanel:hover{ color: #fff; }
 	padding: 200px 0;
 }
 
-#slide3{
-	background: url(../img/3.jpg) 50% 0 no-repeat fixed;
-	color: #fff;
+#contact{
+	background: url(../img/5.jpg) 50% 0 no-repeat fixed;
 	height: 600px;
 	padding: 170px 0 0 0;	
 	background-size: cover;
@@ -107,4 +106,15 @@ a.rpanel:hover{ color: #fff; }
 	padding: 200px 0;
 }
 
+#info{
+	background-color: blue;
+	color:white;  
+	position: relative;
 
+}
+
+#form{
+	background-color: white;
+	color:black;
+	position: relative;
+}
