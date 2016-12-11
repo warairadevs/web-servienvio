@@ -78,10 +78,12 @@ a.rpanel:hover{ color: #fff; }
   	position:relative;
   	height: 557px;
 	width: 100%;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #main-carousel .carousel-inner .item {
-	background-size: all;
+	background-size: 100%;
 	background-position: center;
 	background-repeat:no-repeat;
 	height: 557px !important;
@@ -140,7 +142,7 @@ a.rpanel:hover{ color: #fff; }
   color:#7ab700;
 }
 
-#main-carousel .carousel-inner p {
+/*#main-carousel .carousel-inner p {
 	color: #000;
 	font-family: "Times New Roman", Georgia, Serif;
 	font-size: 26px;
@@ -150,7 +152,7 @@ a.rpanel:hover{ color: #fff; }
 	right: 150px;
 	text-align: right;
 	text-shadow:none;
-}
+}*/
 
 #main-carousel .carousel-left{
 	left:-50px;
@@ -207,4 +209,6 @@ a.rpanel:hover{ color: #fff; }
 
 #slide2 .image-know-us {
 	height: 561px;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
 }
