@@ -4,7 +4,7 @@
 body{
 	margin: 0;
 	width: 100%;
-	padding-top: 80px; 
+	padding-top: 80px;
 }
 
 h1 {
@@ -87,7 +87,7 @@ a.rpanel:hover{ color: #fff; }
 	height: 557px !important;
 }
 
-#main-carousel .carousel-indicators { 
+#main-carousel .carousel-indicators {
 	bottom: 0px;
 }
 
@@ -203,4 +203,8 @@ a.rpanel:hover{ color: #fff; }
 #main-carousel .carousel-left:hover,
 #main-carousel .carousel-right:hover{
 	color: #3498db;
+}
+
+#slide2 .image-know-us {
+	height: 561px;
 }
