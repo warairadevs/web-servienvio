@@ -106,8 +106,12 @@ a.rpanel:hover{ color: #fff; }
 	
 }
 
-.slider-content {
-	height: 100%;
+#contact{
+	background: url(../img/5.jpg) 50% 0 no-repeat fixed;
+	height: 600px;
+	padding: 170px 0 0 0;
+	background-size: cover;
+
 }
 
 #main-carousel .carousel-caption {
@@ -119,6 +123,7 @@ a.rpanel:hover{ color: #fff; }
 	top: 0;
 	z-index: 11;
 }
+
 
 #main-carousel .carousel-caption > div{
     vertical-align: middle;
@@ -207,4 +212,18 @@ a.rpanel:hover{ color: #fff; }
 
 #slide2 .image-know-us {
 	height: 561px;
+}
+
+#info{
+	background-color: blue;
+	color:white;
+	position: relative;
+
+}
+
+#form{
+	background-color: white;
+	color:black;
+	position: relative;
+
 }
