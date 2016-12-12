@@ -77,9 +77,11 @@ a.rpanel:hover{ color: #fff; }
   	overflow: hidden;
   	position:relative;
   	height: 557px;
-	width: 100%;
-	background-attachment: fixed;
+		width: 100%;
+		background-attachment: fixed;
     background-repeat: no-repeat;
+		margin-left: 0;
+		margin-right: 0;
 }
 
 #main-carousel .carousel-inner .item {
@@ -105,7 +107,7 @@ a.rpanel:hover{ color: #fff; }
 
 .carousel-indicators .active{
 	background-color: #2980b9 !important;
-	
+
 }
 
 #contact{

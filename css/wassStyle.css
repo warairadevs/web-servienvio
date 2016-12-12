@@ -1,0 +1,38 @@
+.main_container {
+  padding: 0;
+}
+
+.contact_container {
+  margin: auto;
+  width: 60%;
+  height: auto;
+  background-color: white;
+}
+
+.contact_form {
+  height: 100%;
+  display: flex;
+}
+
+.contact_form_title {
+  text-align: left;
+  border-bottom: solid 0.5px #A4A4A4;
+  padding: 4px;
+  margin-bottom: 5px;
+}
+
+#contact_information_container {
+  background-color: #0F4397;
+  align-items: stretch;
+}
+
+#contact_form_container {
+  background-color: white;
+  align-items: stretch;
+}
+
+#footer {
+  width: 100%;
+  min-height: 150px;
+  background-color: #0F4397;
+}
