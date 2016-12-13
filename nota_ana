@@ -1,0 +1,89 @@
+<form method="post" id="contact_form">
+<div class="row 50%">
+<div class="6u 12u(mobile)"><input id="name" type="text" name="name" placeholder="Name" /></div>
+<div class="6u 12u(mobile)"><input id="email" type="email" name="email" placeholder="Email" /></div>
+</div>
+<div class="row 50%">
+<div class="12u"><textarea id="message" name="message" placeholder="Message" rows="6"></textarea></div>
+</div>
+<div class="row">
+<div class="12u">
+<ul class="actions">
+<li><input type="submit" value="Send Message" /></li>
+</ul>
+</div>
+</div>
+</form>
+<div id="success">
+<span class="green textcenter">
+<p>Your message was sent successfully! I will be in touch as soon as I can.</p>
+</span>
+</div>
+
+<div id="error">
+<span>
+<p>Something went wrong, try refreshing and submitting the form again.</p>
+</span>
+</div>
+
+
+
+
+
+<!-- Validation Form -->
+<script src="assets/js/jquery.form.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript">
+
+// validate contact form
+$(function() {
+$('#contact_form').validate({
+rules: {
+name: {
+required: true,
+minlength: 2
+},
+email: {
+required: true,
+email: true
+},
+message: {
+required: true
+}
+},
+messages: {
+name: {
+required: "come on, you have a name don't you?",
+minlength: "your name must consist of at least 2 characters"
+},
+email: {
+required: "no email, no message"
+},
+message: {
+required: "um...yea, you have to write something to send this form.",
+minlength: "thats all? really?"
+}
+},
+submitHandler: function(form) {
+$(form).ajaxSubmit({
+type:"POST",
+data: $(form).serialize(),
+url:"send.php",
+success: function() {
+$('#contact_form :input').attr('disabled', 'disabled');
+$('#contact_form').fadeTo( "slow", 0.15, function() {
+$(this).find(':input').attr('disabled', 'disabled');
+$(this).find('label').css('cursor','default');
+$('#success').fadeIn();
+});
+},
+error: function() {
+$('#contact_form').fadeTo( "slow", 0.15, function() {
+$('#error').fadeIn();
+});
+}
+});
+}
+});
+});
+</script>
