@@ -137,7 +137,7 @@
                 <div class="col-sm-12 main_container contact_form_title">
                   <h4 class="w3-left">Envíanos un mensaje</h4>
                 </div>
-                <form method="post" id="contact_form" sclass="form-horizontal w3-margin">
+                <form id="contacForm" class="form-horizontal w3-margin" name="sentMessage" novalidate>
                   <div class="form-group">
                     <label class="control-label col-sm-2">Nombre:</label>
                     <div class="col-sm-10">
@@ -153,7 +153,7 @@
                   <div class="form-group">
                     <label class="control-label col-sm-2">Teléfono:</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="phoneNumber" placeholder="Teléfono de contacto">
+                      <input type="tel" class="form-control" id="phoneNumber" placeholder="Teléfono de contacto">
                     </div>
                   </div>
                   <div class="form-group">
@@ -165,7 +165,7 @@
                   <div class="form-group">
                     <label class="control-label col-sm-2" for="pwd">Mensaje:</label>
                     <div class="col-sm-10">
-                      <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                      <textarea class="form-control text-center" placeholder="Mensaje" id="message" required></textarea>
                     </div>
                   </div>
                   <div class="form-group">
@@ -240,9 +240,11 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
   </body>
