@@ -1,5 +1,19 @@
+.navbar-header img {
+    max-height: 100%;
+    width: auto;
+}
+
+.navbar-brand {
+    height: 80px;
+}
+
 .main_container {
   padding: 0;
+}
+
+#main_container {
+  position: absolute;
+  width: 100%;
 }
 
 .contact_container {
@@ -32,4 +46,3 @@
 }
 
 /*BORRE TU FOOTER Y COLOQUE TODO SOBRE EL FOOTER EN MESGSTYLE*/
-
