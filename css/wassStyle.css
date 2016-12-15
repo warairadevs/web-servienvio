@@ -1,5 +1,19 @@
+.navbar-header img {
+    max-height: 100%;
+    width: auto;
+}
+
+.navbar-brand {
+    height: 80px;
+}
+
 .main_container {
   padding: 0;
+}
+
+#main_container {
+  position: absolute;
+  width: 100%;
 }
 
 .contact_container {
@@ -35,4 +49,5 @@
   width: 100%;
   min-height: 150px;
   background-color: #0F4397;
+  margin: 0;
 }
