@@ -97,7 +97,7 @@ a.rpanel:hover{ color: #fff; }
 
 #main-carousel .carousel-indicators li{
 	background: rgba(0, 0, 0, 0);
-	border: 1px solid #2980b9;
+	border: 1px solid #0059af;
 	width: 13px;
 	height: 13px;
 	margin-left: 5px;
@@ -106,7 +106,7 @@ a.rpanel:hover{ color: #fff; }
 }
 
 .carousel-indicators .active{
-	background-color: #2980b9 !important;
+	background-color: #0059af !important;
 
 }
 
@@ -149,17 +149,9 @@ a.rpanel:hover{ color: #fff; }
   color:#7ab700;
 }
 
-/*#main-carousel .carousel-inner p {
-	color: #000;
-	font-family: "Times New Roman", Georgia, Serif;
-	font-size: 26px;
-	font-weight: 300;
-	position: absolute;
-	bottom: 0;
-	right: 150px;
-	text-align: right;
-	text-shadow:none;
-}*/
+
+/*AQUI IBA #main-carousel .carousel-inner p Y LO BORREEEEEEEEEEE*/
+
 
 #main-carousel .carousel-left{
 	left:-50px;
@@ -190,7 +182,7 @@ a.rpanel:hover{ color: #fff; }
 	padding: 15px;
 	z-index: 12;
 	font-size: 60px;
-	color: #2980b9;
+	color: #0059af;
 	top: 40%;
 	position: absolute;
 	margin-top: -60px;

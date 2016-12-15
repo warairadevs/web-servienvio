@@ -31,8 +31,5 @@
   align-items: stretch;
 }
 
-#footer {
-  width: 100%;
-  min-height: 150px;
-  background-color: #0F4397;
-}
+/*BORRE TU FOOTER Y COLOQUE TODO SOBRE EL FOOTER EN MESGSTYLE*/
+
