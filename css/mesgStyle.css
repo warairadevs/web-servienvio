@@ -1,15 +1,18 @@
 footer {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: #0059af;
  	background-size: 100%;
 }
 
 footer h3{
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     display: inline-block;
     color:#fff;
     padding-top: 20px;
 }
 
 footer h5{
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     color:#bdc3c7;
 }
 
