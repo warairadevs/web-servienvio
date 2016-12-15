@@ -1,0 +1,62 @@
+footer {
+    background-color: #0059af;
+ 	background-size: 100%;
+}
+
+footer h3{
+    display: inline-block;
+    color:#fff;
+    padding-top: 20px;
+}
+
+footer h5{
+    color:#bdc3c7;
+}
+
+footer .segment{
+    padding-bottom: 40px;
+}
+
+footer .social a{
+    display: inline-block;
+    padding: 6px;
+    color: #bdc3c7;
+}
+
+footer h5:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+footer .social a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .copynote{
+    padding: 20px 0;
+    margin-top: 40px;
+    background: #004c96; 
+
+}
+
+footer .copynote p {
+	color: #fff;
+}
+
+footer .copynote p a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer .copynote p a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .copynote p a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+
