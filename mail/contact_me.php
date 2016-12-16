@@ -20,5 +20,22 @@ $email_body = "Ha recibido un nuevo mensaje desde la pagina web.\n\n"."Aqui esta
 $headers = "De: noreply@warairadevs.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
+
+
+$to      = '00jjessejj00@example.com';
+$subject = 'the subject';
+$message = 'hello';
+$headers = 'From: webmaster@example.com' . "\r\n" .
+    'Reply-To: webmaster@example.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+mail($to, $subject, $message, $headers);
+
+
+
+
+
+
+
 return true;
 ?>
