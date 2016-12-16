@@ -8,7 +8,7 @@ body{
 }
 
 h1 {
-  font-family:"Arvo";
+  	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	font-weight:normal;
 	font-size: 55px;
 	text-align: center;
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-   font-family:"Arvo";
+   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
    font-weight: normal;
    font-size: 40px;
    text-align: center;
@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-   font-family: Oswald;
+   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
    font-weight: normal;
    font-size: 16px;
    text-align: center;
@@ -38,20 +38,11 @@ h3 {
    position: relative;
 }
 
-.center { margin: 0 auto; }
-.content{ margin: 0 auto; width: 960px; }
-.clear { clear: both; }
-a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
-a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
-
-a.lpanel:hover{ color: #fff; }
-a.rpanel:hover{ color: #fff; }
-
-
 
 /* NAVBAR
 --------------------------------------------------------*/
 .navbar {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	border: 0;
 	border-radius: 0;
 	margin-bottom: 0;
@@ -68,27 +59,23 @@ a.rpanel:hover{ color: #fff; }
     padding: 0;
 }
 
-
 /* SLIDER
 --------------------------------------------------------*/
 
 #home{
-  	padding: 0;
-  	overflow: hidden;
-  	position:relative;
-  	height: 557px;
-		width: 100%;
-		background-attachment: fixed;
-    background-repeat: no-repeat;
-		margin-left: 0;
-		margin-right: 0;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	height: 600px !important;
+	background-attachment: fixed;
+	top: 50px;
 }
 
 #main-carousel .carousel-inner .item {
 	background-size: 100%;
 	background-position: center;
 	background-repeat:no-repeat;
-	height: 557px !important;
+	height: 600px !important;
 }
 
 #main-carousel .carousel-indicators {
@@ -111,11 +98,14 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #contact{
-	background: url(../img/5.jpg) 50% 0 no-repeat fixed;
-	height: 600px;
-	padding: 170px 0 0 0;
-	background-size: cover;
-
+	background: url(../img/5.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	height: 600px !important;
+	background-attachment: fixed;
+	top: 50px;
+	padding-top: 60px;
 }
 
 #main-carousel .carousel-caption {
@@ -207,9 +197,12 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #slide2 .image-know-us {
-	height: 561px;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	height: 600px !important;
 	background-attachment: fixed;
-    background-repeat: no-repeat;
+	top: 50px;
 }
 
 #info{
@@ -224,4 +217,31 @@ a.rpanel:hover{ color: #fff; }
 	color:black;
 	position: relative;
 
+}
+
+#slide3 .image-what {
+	background-size: contain;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	height: 600px !important;
+	background-attachment: fixed;
+	top: 50px;
+}
+
+#slide4 .image-how {
+	background-size: contain;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	height: 600px !important;
+	background-attachment: fixed;
+	top: 50px;
+}
+
+#slide5 .image-testimonies {
+	background-size: contain;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	height: 600px !important;
+	background-attachment: fixed;
+	top: 50px;
 }
