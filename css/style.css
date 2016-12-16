@@ -8,7 +8,7 @@ body{
 }
 
 h1 {
-  font-family:"Arvo";
+  	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	font-weight:normal;
 	font-size: 55px;
 	text-align: center;
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-   font-family:"Arvo";
+   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
    font-weight: normal;
    font-size: 40px;
    text-align: center;
@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-   font-family: Oswald;
+   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
    font-weight: normal;
    font-size: 16px;
    text-align: center;
@@ -38,20 +38,11 @@ h3 {
    position: relative;
 }
 
-.center { margin: 0 auto; }
-.content{ margin: 0 auto; width: 960px; }
-.clear { clear: both; }
-a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
-a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
-
-a.lpanel:hover{ color: #fff; }
-a.rpanel:hover{ color: #fff; }
-
-
 
 /* NAVBAR
 --------------------------------------------------------*/
 .navbar {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	border: 0;
 	border-radius: 0;
 	margin-bottom: 0;
@@ -67,7 +58,6 @@ a.rpanel:hover{ color: #fff; }
 .navbar-brand {
     padding: 0;
 }
-
 
 /* SLIDER
 --------------------------------------------------------*/
@@ -207,9 +197,13 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #slide2 .image-know-us {
-	height: 561px;
+	background-size: 100%;
+	height: 557px;
 	background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
+
+  
 }
 
 #info{
@@ -223,5 +217,23 @@ a.rpanel:hover{ color: #fff; }
 	background-color: white;
 	color:black;
 	position: relative;
+
+}
+
+#slide3 .image-what {
+	background-size: 100%;
+	background-position: center;
+	background-repeat:no-repeat;
+	height: 557px;
+	background-attachment: fixed;
+
+}
+
+#slide4 .image-how {
+	background-size: 100%;
+	background-position: center;
+	background-repeat:no-repeat;
+	height: 600px;
+	background-attachment: fixed;
 
 }
