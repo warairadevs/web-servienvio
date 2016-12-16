@@ -63,22 +63,19 @@ h3 {
 --------------------------------------------------------*/
 
 #home{
-  	padding: 0;
-  	overflow: hidden;
-  	position:relative;
-  	height: 557px;
-		width: 100%;
-		background-attachment: fixed;
-    background-repeat: no-repeat;
-		margin-left: 0;
-		margin-right: 0;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	height: 600px !important;
+	background-attachment: fixed;
+	top: 50px;
 }
 
 #main-carousel .carousel-inner .item {
 	background-size: 100%;
 	background-position: center;
 	background-repeat:no-repeat;
-	height: 557px !important;
+	height: 600px !important;
 }
 
 #main-carousel .carousel-indicators {
@@ -101,11 +98,14 @@ h3 {
 }
 
 #contact{
-	background: url(../img/5.jpg) 50% 0 no-repeat fixed;
-	height: 600px;
-	padding: 170px 0 0 0;
-	background-size: cover;
-
+	background: url(../img/5.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	height: 600px !important;
+	background-attachment: fixed;
+	top: 50px;
+	padding-top: 60px;
 }
 
 #main-carousel .carousel-caption {
@@ -197,11 +197,12 @@ h3 {
 }
 
 #slide2 .image-know-us {
-	height: 561px;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	height: 600px !important;
 	background-attachment: fixed;
-    background-repeat: no-repeat;
-    top: 50px;
-  
+	top: 50px;
 }
 
 #info{
@@ -219,19 +220,28 @@ h3 {
 }
 
 #slide3 .image-what {
-	background-size: 100%;
-	background-position: center;
+	background-size: contain;
+	background-position: bottom;
 	background-repeat:no-repeat;
-	height: 560px !important;
+	height: 600px !important;
 	background-attachment: fixed;
-
+	top: 50px;
 }
 
 #slide4 .image-how {
-	background-size: 100%;
-	background-position: center;
+	background-size: contain;
+	background-position: bottom;
 	background-repeat:no-repeat;
-	height: 560px !important;
+	height: 600px !important;
 	background-attachment: fixed;
+	top: 50px;
+}
 
+#slide5 .image-testimonies {
+	background-size: contain;
+	background-position: bottom;
+	background-repeat:no-repeat;
+	height: 600px !important;
+	background-attachment: fixed;
+	top: 50px;
 }
