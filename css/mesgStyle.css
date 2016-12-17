@@ -63,3 +63,88 @@ footer .copynote p a:active {
 }
 
 
+/*=================================================================
+    Testimonials
+==================================================================*/
+
+#slide5{
+    background-size: contain;
+    background-position: bottom;
+    background-repeat:no-repeat;
+    height: 600px !important;
+    background-attachment: fixed;
+    top: 50px;
+    /*background: url(../img/testimonios.png);*/
+
+}
+
+.testimonials h1{
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials p.speech{
+    padding: 40px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 2px solid #0059af; /* Primary color, can be changed via colors.css */
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+
+.testimonials p.speech:before{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 80px;
+    top: 100%;
+    border: 15px solid;
+    border-color: #0059af transparent transparent #0059af; /* Primary color, can be changed via colors.css */
+}
+
+.testimonials p.speech:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 83px;
+    top: 100%;
+    border: 12px solid;
+    border-color: #fff transparent transparent #fff;
+}
+
+.client-info{
+    padding: 50px;
+
+}
+
+.client-info h4{
+    color: #0059af; /* Primary color, can be changed via colors.css */
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.client-info span{
+    display: block;
+    padding: 5px;
+}
+
+.client-info img{
+    border:2px solid #fff;
+    padding: 2px;
+    border-radius: 50px;
+    height:100px;
+    width: 100px;
+    -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.1);
+       -moz-box-shadow: 0 0 10px 2px rgba(0,0,0,.1);
+            box-shadow: 0 0 10px 2px rgba(0,0,0,.1);
+}
+
+#slide5 .testimonials-title {
+    padding-top: 20px;
+}

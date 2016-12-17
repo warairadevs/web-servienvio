@@ -1,4 +1,4 @@
-/*= GENERAL STYLING
+item/*= GENERAL STYLING
 --------------------------------------------------------*/
 
 body{
@@ -79,7 +79,7 @@ h3 {
 }
 
 #main-carousel .carousel-indicators {
-	bottom: 0px;
+	bottom: 170px;
 }
 
 #main-carousel .carousel-indicators li{
@@ -237,11 +237,3 @@ h3 {
 	top: 50px;
 }
 
-#slide5 .image-testimonies {
-	background-size: contain;
-	background-position: bottom;
-	background-repeat:no-repeat;
-	height: 600px !important;
-	background-attachment: fixed;
-	top: 50px;
-}
