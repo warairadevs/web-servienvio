@@ -141,9 +141,6 @@ h3 {
 }
 
 
-/*AQUI IBA #main-carousel .carousel-inner p Y LO BORREEEEEEEEEEE*/
-
-
 #main-carousel .carousel-left{
 	left:-50px;
 }
@@ -198,6 +195,7 @@ h3 {
 }
 
 #slide2 .image-know-us {
+
 	background-size: contain;
 	background-position: bottom;
 	background-repeat:no-repeat;
