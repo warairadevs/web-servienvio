@@ -201,8 +201,8 @@ h3 {
 	background-position: bottom;
 	background-repeat:no-repeat;
 	height: 600px !important;
-	background-attachment: scroll;
-	margin-top: 80px;
+	//background-attachment: fixed;
+	top: 50px;
 }
 
 #info{
