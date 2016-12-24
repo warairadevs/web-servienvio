@@ -71,6 +71,7 @@ h3 {
 	top: 50px;
 }
 
+
 #main-carousel .carousel-inner .item {
 	background-size: 100%;
 	background-position: center;
@@ -79,7 +80,7 @@ h3 {
 }
 
 #main-carousel .carousel-indicators {
-	bottom: 170px;
+	bottom: 180px;
 }
 
 #main-carousel .carousel-indicators li{
@@ -236,4 +237,13 @@ h3 {
 	background-attachment: fixed;
 	top: 50px;
 }
+
+#slide5 .image-test {
+	background-size: contain;
+	padding-top: 230px;
+	background-repeat:no-repeat;
+	height: 600px !important;	
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
 
