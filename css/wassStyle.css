@@ -1,6 +1,7 @@
 .navbar-header img {
     max-height: 100%;
     width: auto;
+    padding-left: 50px
 }
 
 .navbar-brand {
