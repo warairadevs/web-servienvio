@@ -39,7 +39,7 @@ footer .social a:hover{
 footer .copynote{
     padding: 20px 0;
     margin-top: 40px;
-    background: #004c96; 
+    background: #004c96;
 
 }
 
@@ -73,16 +73,19 @@ footer .copynote p a:active {
     padding: 40px;
     margin: 20px;
     font-size: 20px;
+    font-weight: bold;
     position: relative;
     text-align: center;
     line-height: 1.5;
-    background-color: #fff;
-    border: 2px solid #0059af; /* Primary color, can be changed via colors.css */
+    //background-color: #fff;
+    //border: 2px solid #0059af; /* Primary color, can be changed via colors.css */
+    color: white;
     -webkit-border-radius: 10px;
        -moz-border-radius: 10px;
             border-radius: 10px;
 }
 
+/*
 .testimonials p.speech:before{
     content: ' ';
     position: absolute;
@@ -94,7 +97,7 @@ footer .copynote p a:active {
     border-color: #0059af transparent transparent #0059af; /* Primary color, can be changed via colors.css */
 
 }
-
+*/
 .testimonials p.speech:after{
     content: ' ';
     position: absolute;
@@ -147,4 +150,3 @@ footer .copynote p a:active {
 #slide5 .testimonials-title h3 {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
-
