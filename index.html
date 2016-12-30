@@ -26,7 +26,6 @@
   </head>
 
 
-
   <body>
     <div class="container-fluid main_container">
       <nav class="navbar navbar-default navbar-fixed-top w3-card-8">
@@ -45,7 +44,6 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#slide2" class="navbar-text">CONOCENOS</a></li>
-              <li><a href="#slide3" class="navbar-text">QUÉ HACEMOS?</a></li>
               <li><a href="#slide5" class="navbar-text">CLIENTES</a></li>
               <li><a href="#contact" class="navbar-text">CONTACTO</a></li>
               <!--<li><a href="#" class="navbar-text">SOLICITAR SERVICIO</a></li>
@@ -56,30 +54,32 @@
       </nav>
     </div>
 
-    <div class="container-fluid main_container">
-      <!-- SLIDES START -->
-      <!-- Miguel  -->
-
-      <div id="home" class="row main_container">
-        <div id="main-carousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#main-carousel" data-slide-to="1"></li>
-            <li data-target="#main-carousel" data-slide-to="2"></li>
-          </ol><!--/.carousel-indicators-->
-          <div class="carousel-inner">
-            <div class="item active img-responsive" style="background-image: url(img/1.png)">
+    <div id="main_container" class="container-fluid main_container">
+      <div id="home0" class="row main_container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="image-home" style="background-image: url(img/1.png)">
             </div>
-            <div class="item img-responsive" style="background-image: url(img/2.png)">
           </div>
-          <div class="item img-responsive" style="background-image: url(img/3.png)">
-          </div>
-        </div><!--/.carousel-inner-->
-        <a class="carousel-left member-carousel-control hidden-xs" href="#main-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-        <a class="carousel-right member-carousel-control hidden-xs" href="#main-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+        </div>
       </div>
+      <div id="home1" class="row main_container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="image-home" style="background-image: url(img/2.png)">
 
-    </div><!--/#home-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="home2" class="row main_container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="image-home" style="background-image: url(img/3.png)">
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Chux -->
   	<div id="slide2" class="row main_container">
@@ -109,12 +109,50 @@
       </div>
     </div>
 
-    <div id="slide5" class="row main_container">
-      <div class="container-fluid">
+    <div id="slide5" class="row main_container testimonials">
+      <div class="image-test" style="background-image: url(img/testimonios.png)">
+
+      <div id="main-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators hidden-xs">
+          <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#main-carousel" data-slide-to="1"></li>
+          <li data-target="#main-carousel" data-slide-to="2"></li>
+        </ol>
         <div class="row">
-          <div class="image-testimonies" style="background-image: url(img/testimonios.png)">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="carousel-inner client-testimonials text-center">
+              <div class="item active img-responsive">
+                <p class="speech">Utilicé los servicios de Servienvio pro primera vez y me fascinó. Realmente entregan tu encomienda en 45 minutos o menos. ¡Los recomiendo!</p>
+                  <div class="client-info">
+                    <img src="img/gina_stone-client_pic.jpg" />
+                    <h4>Gina Stone</h4>
+                    <span>Cliente</span>
+                  </div>
+              </div>
+              <div class="item img-responsive">
+                <p class="speech">Decidí utilizar Servienvio para variar y me pareció mucho más rápido que otras compañías de mensajería. La atención es única.</p>
+                  <div class="client-info">
+                    <img src="img/john_doe-client_pic.jpg" />
+                    <h4>John Doe</h4>
+                    <span>Cliente</span>
+                  </div>
+              </div>
+
+              <div class="item img-responsive">
+                <p class="speech">¡Me encanta Servienvio! La atención es maravillosa y el tiempo de entrega de los paquetes es rápido. Sin duda alguna los recomiendo.</p>
+                  <div class="client-info">
+                    <img src="img/dana_hill-client_pic.jpg" />
+                    <h4>Dana Hill</h4>
+                    <span>Cliente</span>
+                  </div>
+              </div>
+            </div>
           </div>
         </div>
+
+        <a class="carousel-left member-carousel-control hidden-xs" href="#main-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+        <a class="carousel-right member-carousel-control hidden-xs" href="#main-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+      </div>
       </div>
     </div>
 
@@ -125,31 +163,23 @@
             <div class="row contact_form">
               <div class="col-sm-4 col-sm-push-8 main_container" id="contact_information_container">
                 <div class="col-sm-12 main_container contact_form_title">
-                  <h4 class="w3-left w3-text-white">Información de contacto</h4>
+                  <h3 class="w3-left w3-text-white">Información de contacto</h3>
                 </div>
                 <div class="col-sm-12 form-group">
-                	<label class="w3-left w3-text-white fa fa-phone">&nbsp;</label>
-                	<label class="w3-left w3-text-white">+53156890404</label>
+                	<i class="fa fa-phone fa-2x symbols" aria-hidden="true"> +53156890404</i>
                 </div>
                 <div class="col-sm-12 form-group">
-                	<label class="w3-left w3-text-white fa fa-map-marker">&nbsp;</label>
-                	<label class="w3-left w3-text-white">Carretera 20, Piso 4</label>
+                	<i class="fa fa-map-marker fa-2x symbols" aria-hidden="true"> Carretera 20, Piso 4</i>
                 </div>
                 <div class="col-sm-12 form-group">
-                	<label class="w3-left w3-text-white fa fa-envelope-o">&nbsp;</label>
-                	<label class="w3-left w3-text-white">info@servienvio.com</label>
-                </div>
-                <div class="col-sm-12 form-group">
-                	<label href="#" class="w3-left w3-text-white fa fa-facebook">&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                	<label href="#" class="w3-left w3-text-white fa fa-twitter">&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                	<label href="#" class="w3-left w3-text-white fa fa-linkedin"></label>
+                	<i class="fa fa-envelope-o fa-2x symbols" aria-hidden="true"> info@servienvio.com</i>
                 </div>
               </div>
               <div class="col-sm-8 col-sm-pull-4 main_container" id="contact_form_container">
                 <div class="col-sm-12 main_container contact_form_title">
-                  <h4 class="w3-left">Envíanos un mensaje</h4>
+                  <h3 class="w3-left">Envíanos un mensaje</h3>
                 </div>
-                <form method="post" id="contact_form" class="form-horizontal w3-margin">
+                <form method="post" id="contactForm" class="form-horizontal w3-margin">
                   <div class="form-group">
                     <!--<label class="control-label col-sm-2">Nombre:</label>-->
                     <div class="col-sm-10">
@@ -165,7 +195,7 @@
                   <div class="form-group">
                     <!--<label class="control-label col-sm-2">Teléfono:</label>-->
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="phoneNumber" placeholder="Teléfono de contacto">
+                      <input type="tel" class="form-control" id="phoneNumber" placeholder="Teléfono de contacto">
                     </div>
                   </div>
                   <div class="form-group">
@@ -177,16 +207,15 @@
                   <div class="form-group">
                     <!--<label class="control-label col-sm-2" for="pwd">Mensaje:</label>-->
                     <div class="col-sm-10">
-                      <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                      <textarea class="form-control" placeholder="Mensaje" id="message" required></textarea>
                     </div>
                   </div>
                   <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
+                    <div class="col-sm-10">
                       <button type="submit" class="btn btn-default">Enviar</button>
                     </div>
                   </div>
                 </form>
-
               </div>
             </div>
           </div>
@@ -248,10 +277,14 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
 
   </body>
 </html>
