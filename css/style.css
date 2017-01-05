@@ -200,7 +200,7 @@ h3 {
 	background-position: bottom;
 	background-repeat:no-repeat;
 	height: 600px !important;
-	background-attachment: fixed;
+	//background-attachment: fixed;
 	top: 50px;
 }
 
@@ -208,7 +208,6 @@ h3 {
 	background-color: blue;
 	color:white;
 	position: relative;
-
 }
 
 #form{
@@ -242,6 +241,7 @@ h3 {
 	background-repeat:no-repeat;
 	height: 600px !important;	
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	
 }
 
 

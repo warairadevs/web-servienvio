@@ -18,8 +18,6 @@
     <link href="css/mesgStyle.css" rel="stylesheet">
     <link href="css/w3.css" rel="stylesheet">
 
-
-
     <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
 	  <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
 	  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -33,7 +31,7 @@
       <nav class="navbar navbar-default navbar-fixed-top w3-card-8">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#home" >
+            <a class="navbar-brand" href="#" >
               <img class="img-responsive" src="img\logo_web.png">
             </a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -45,7 +43,8 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#slide2" class="navbar-text">CONOCENOS</a></li>
+              <li><a href="#slide2" class="navbar-text">CONÓCENOS</a></li>            
+              <li><a href="#slide5" class="navbar-text">CLIENTES</a></li>
               <li><a href="#contact" class="navbar-text">CONTACTO</a></li>
               <!--<li><a href="#" class="navbar-text">SOLICITAR SERVICIO</a></li>
               <li><a href="#"><button type="button" class="btn btn-default navbar-btn">INICIAR SESION</button></a></li>-->
@@ -55,6 +54,32 @@
       </nav>
     </div>
 
+    <div id="main_container" class="container-fluid main_container">
+      <div id="home0" class="row main_container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="image-home" style="background-image: url(img/1.png)">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="home1" class="row main_container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="image-home" style="background-image: url(img/2.png)">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="home2" class="row main_container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="image-home" style="background-image: url(img/3.png)">
+            </div>
+          </div>
+        </div>
+      </div>    
 
       <!-- Chux -->
   	<div id="slide2" class="row main_container">
@@ -85,16 +110,10 @@
     </div>
 
     <div id="slide5" class="row main_container testimonials">
-      <!--<div class="row text-center testimonials-title">
-        <div class="col-md-12">
-          <h2>Testimonios</h2>
-          <h3 class="caption gray">Lo que nuestros clientes han dicho</h3>
-        </div>
-      </div>-->
       <div class="image-test" style="background-image: url(img/testimonios.png)">
 
       <div id="main-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators hidden-xs">
           <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
           <li data-target="#main-carousel" data-slide-to="1"></li>
           <li data-target="#main-carousel" data-slide-to="2"></li>
@@ -103,7 +122,7 @@
           <div class="col-md-8 col-md-offset-2">
             <div class="carousel-inner client-testimonials text-center">
               <div class="item active img-responsive">
-                <p class="speech">Utilicé los servicios de Servienvio pro primera vez y me fascinó. Realmente entregan tu encomienda en 45 minutos o menos. ¡Los recomiendo!</p>
+                <p class="speech">Utilicé los servicios de Servienvio pro primera vez y me fascinó. ¡Los recomiendo!</p>
                   <div class="client-info">
                     <img src="img/gina_stone-client_pic.jpg" />
                     <h4>Gina Stone</h4>
@@ -138,7 +157,6 @@
       </div>
     </div>
 
-    
     	<!-- Ana -->
       <div id="contact" class="row main_container">
         <div class="contact_container w3-card-16 w3-small">
@@ -149,19 +167,18 @@
                   <h3 class="w3-left w3-text-white">Información de contacto</h3>
                 </div>
                 <div class="col-sm-12 form-group">
-                	<i class="fa fa-phone fa-2x symbols" aria-hidden="true"> +53156890404</i>
+                  <i class="fa fa-globe fa-2x symbols" aria-hidden="true"> Ciudad de Panamá</i>
                 </div>
                 <div class="col-sm-12 form-group">
-                	<i class="fa fa-map-marker fa-2x symbols" aria-hidden="true"> Carretera 20, Piso 4</i>
-                	
+                	<i class="fa fa-phone fa-2x symbols" aria-hidden="true"> Tel: 369-7448</i><br>
+                  <i class="fa fa-mobile fa-2x symbols" aria-hidden="true"> Cel: 6046-6735</i>
                 </div>
                 <div class="col-sm-12 form-group">
-                	<i class="fa fa-envelope-o fa-2x symbols" aria-hidden="true"> info@servienvio.com</i>
+                	<i class="fa fa-map-marker fa-2x symbols" aria-hidden="true"> El Dorado C.C. Plaza Aventura, local 409</i>
+                  <i class="fa fa-map-marker fa-2x symbols" aria-hidden="true"> Brisas del Golf, Plaza Brisas 507, local 66</i>               	
                 </div>
                 <div class="col-sm-12 form-group">
-                	<i class="fa fa-facebook fa-3x symbols"></i> &nbsp &nbsp</a>
-                  <i class="fa fa-twitter fa-3x symbols"></i>&nbsp &nbsp</a>
-                  <i class="fa fa-instagram fa-3x symbols"></i></a>
+                	<i class="fa fa-envelope-o fa-2x symbols" aria-hidden="true"> servienvio.pty@gmail.com</i>
                 </div>
               </div>
               <div class="col-sm-8 col-sm-pull-4 main_container" id="contact_form_container">
@@ -170,42 +187,41 @@
                 </div>
                 <form method="post" id="contactForm" class="form-horizontal w3-margin">
                   <div class="form-group">
-                    <label class="control-label col-sm-2">Nombre:</label>
+                    <!--<label class="control-label col-sm-2">Nombre:</label>-->
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="name" placeholder="Nombre">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <!--<label class="control-label col-sm-2" for="email">Email:</label>-->
                     <div class="col-sm-10">
                       <input type="email" class="form-control" id="email" placeholder="Correo eletrónico">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="control-label col-sm-2">Teléfono:</label>
+                    <!--<label class="control-label col-sm-2">Teléfono:</label>-->
                     <div class="col-sm-10">
                       <input type="tel" class="form-control" id="phoneNumber" placeholder="Teléfono de contacto">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="control-label col-sm-2">Empresa:</label>
+                    <!--<label class="control-label col-sm-2">Empresa:</label>-->
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="company" placeholder="Nombre de la empresa">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="control-label col-sm-2" for="pwd">Mensaje:</label>
+                    <!--<label class="control-label col-sm-2" for="pwd">Mensaje:</label>-->
                     <div class="col-sm-10">
-                      <textarea class="form-control text-center" placeholder="Mensaje" id="message" required></textarea>
+                      <textarea class="form-control" placeholder="Mensaje" id="message" required></textarea>
                     </div>
                   </div>
                   <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
+                    <div class="col-sm-10">
                       <button type="submit" class="btn btn-default">Enviar</button>
                     </div>
                   </div>
                 </form>
-
               </div>
             </div>
           </div>
@@ -261,7 +277,7 @@
           </div><!-- /.container -->
         </div><!-- /.copynote -->
       </footer>
-    
+    </div>
 
 
     <script type="text/javascript" src="js/jquery.js"></script>
