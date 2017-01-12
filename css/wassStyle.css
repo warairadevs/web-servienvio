@@ -22,7 +22,8 @@
 	background-position: bottom;
 	background-repeat:no-repeat;
 	height: 600px !important;
-	background-attachment: fixed;	
+	background-attachment: fixed;
+ 
 }
 
 #home1 .image-home {
@@ -30,7 +31,7 @@
 	background-position: bottom;
 	background-repeat:no-repeat;
 	height: 600px !important;
-	//background-attachment: fixed;
+	background-attachment: fixed;
 	top: 50px;
 }
 

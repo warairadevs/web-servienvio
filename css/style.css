@@ -195,7 +195,7 @@ h3 {
 }
 
 #slide2 .image-know-us {
-	background-size: cover;
+
 	background-size: contain;
 	background-position: bottom;
 	background-repeat:no-repeat;
@@ -235,17 +235,13 @@ h3 {
 	top: 50px;
 }
 
-
 #slide5 .image-test {
 	background-size: contain;
 	padding-top: 230px;
 	background-repeat:no-repeat;
 	height: 600px !important;	
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-}
-
-#slide5 {
-	height: 700px;
+	
 }
 
 
