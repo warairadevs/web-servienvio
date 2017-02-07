@@ -1,4 +1,4 @@
-item/*= GENERAL STYLING
+/*= GENERAL STYLING
 --------------------------------------------------------*/
 
 body{
@@ -98,16 +98,6 @@ h3 {
 
 }
 
-#contact{
-	background: url(../img/5.jpg);
-	background-size: 100%;
-	background-position: bottom;
-	background-repeat:no-repeat;
-	height: 600px !important;
-	background-attachment: fixed;
-	top: 50px;
-	padding-top: 60px;
-}
 
 #main-carousel .carousel-caption {
 	display: table;
@@ -200,7 +190,7 @@ h3 {
 	background-position: bottom;
 	background-repeat:no-repeat;
 	height: 600px !important;
-	//background-attachment: fixed;
+	background-attachment: fixed;
 	top: 50px;
 }
 
@@ -235,13 +225,10 @@ h3 {
 	top: 50px;
 }
 
-#slide5 .image-test {
-	background-size: contain;
-	padding-top: 230px;
-	background-repeat:no-repeat;
-	height: 600px !important;	
-	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-	
+.contenedor {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 

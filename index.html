@@ -27,6 +27,8 @@
 
 
   <body>
+  <div class="contenedor">
+
     <div class="container-fluid main_container">
       <nav class="navbar navbar-default navbar-fixed-top w3-card-8">
         <div class="container-fluid">
@@ -44,7 +46,7 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#slide2" class="navbar-text">CONÓCENOS</a></li>            
-              <li><a href="#slide5" class="navbar-text">CLIENTES</a></li>
+              <li><a href="#testimonials" class="navbar-text">CLIENTES</a></li>
               <li><a href="#contact" class="navbar-text">CONTACTO</a></li>
               <!--<li><a href="#" class="navbar-text">SOLICITAR SERVICIO</a></li>
               <li><a href="#"><button type="button" class="btn btn-default navbar-btn">INICIAR SESION</button></a></li>-->
@@ -52,7 +54,7 @@
           </div>
         </div>
       </nav>
-    </div>
+    
 
     <div id="main_container" class="container-fluid main_container">
       <div id="home0" class="row main_container">
@@ -67,7 +69,6 @@
         <div class="container-fluid">
           <div class="row">
             <div class="image-home" style="background-image: url(img/2.png)">
-
             </div>
           </div>
         </div>
@@ -109,124 +110,119 @@
       </div>
     </div>
 
-    <div id="slide5" class="row main_container testimonials">
-      <div class="image-test" style="background-image: url(img/testimonios.png)">
+    <section class="pricing-slide" id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="pricing-slide-heading text-center">
+          <p>Ellos cuentan con un aliado</p>
+          <img class="img=responsive" src="img/daag.png" alt="">
+        </div>
+        <div class="the-pricing-slider">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <div class="col-md-6 col-xs-12 col-sm-6 wow zoomIn animated">
+                    <p>Decidí utilizar Servienvio para variar y me pareció mucho más rápido que otras compañías de mensajería. La atención es única. Se lo recomiendo a todos.</p>
+                    <div class="person">
+                      <img class="img-circle img-responsive" src="img/slider-img-1.jpg" alt="">
+                      <h6>John Doe</h6>
+                      <h5>Cliente</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 wow zoomIn animated">
+                    <p>Utilicé los servicios de Servienvio por primera vez y me fascinó. Me pareció una excelente alternativa. La atención es única. ¡Los recomiendo!</p>
+                    <div class="person">
+                      <img class="img-circle img-responsive" src="img/slider-img-2.jpg" alt="">
+                      <h6>Dean Winchester</h6>
+                      <h5>Cliente</h5>
+                    </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-6 col-xs-12 col-sm-6 wow zoomIn animated">
+                    <p>¡Me encanta Servienvio! La atención es maravillosa, el tiempo de entrega de los paquetes es rápido y garantizan la llegada de los paquetes.</p>
 
-      <div id="main-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators hidden-xs">
-          <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#main-carousel" data-slide-to="1"></li>
-          <li data-target="#main-carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <div class="carousel-inner client-testimonials text-center">
-              <div class="item active img-responsive">
-                <p class="speech">Utilicé los servicios de Servienvio pro primera vez y me fascinó. ¡Los recomiendo!</p>
-                  <div class="client-info">
-                    <img src="img/gina_stone-client_pic.jpg" />
-                    <h4>Gina Stone</h4>
-                    <span>Cliente</span>
-                  </div>
+                    <div class="person">
+                      <img class="img-circle img-responsive" src="img/slider-img-3.jpg" alt="">
+                      <h6>Pedro Contreras</h6>
+                      <h5>Cliente</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 wow zoomIn animated">
+                    <p>¡Quedé fascinada! Me encantó lo rápido que es enviar una encomienda con Servienvio. La atención es única en todo momento. Sin duda los recomiendo.</p>
+                    <div class="person">
+                      <img class="img-circle img-responsive" src="img/slider-img-5.jpg" alt="">
+                      <h6>Carolina Smith</h6>
+                      <h5>Cliente</h5>
+                    </div>
+                </div>
               </div>
-              <div class="item img-responsive">
-                <p class="speech">Decidí utilizar Servienvio para variar y me pareció mucho más rápido que otras compañías de mensajería. La atención es única.</p>
-                  <div class="client-info">
-                    <img src="img/john_doe-client_pic.jpg" />
-                    <h4>John Doe</h4>
-                    <span>Cliente</span>
-                  </div>
-              </div>
-
-              <div class="item img-responsive">
-                <p class="speech">¡Me encanta Servienvio! La atención es maravillosa y el tiempo de entrega de los paquetes es rápido. Sin duda alguna los recomiendo.</p>
-                  <div class="client-info">
-                    <img src="img/dana_hill-client_pic.jpg" />
-                    <h4>Dana Hill</h4>
-                    <span>Cliente</span>
-                  </div>
-              </div>
+              <!--<div class="item">
+                <div class="col-md-6 col-xs-12 col-sm-6 wow zoomIn animated">
+                    <p>Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
+                    <div class="person">
+                      <img class="img-circle img-responsive" src="img/slider-img-4.jpg" alt="">
+                      <h6>John Doe</h6>
+                      <h5>CEO, THE RIVERS COMPANY</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 wow zoomIn animated">
+                    <p>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.</p>
+                    <div class="person">
+                      <img class="img-circle img-responsive" src="img/slider-img-6.jpg" alt="">
+                      <h6>Dean Winchester</h6>
+                      <h5>UX DESIGNER, GOOGLE INC.</h5>
+                    </div>
+                </div>
+              </div> -->              
             </div>
           </div>
         </div>
-
-        <a class="carousel-left member-carousel-control hidden-xs" href="#main-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-        <a class="carousel-right member-carousel-control hidden-xs" href="#main-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-      </div>
-
       </div>
     </div>
+  </section><!-- end of pricing-slide section -->
 
-    	<!-- Ana -->
-      <div id="contact" class="row main_container">
-        <div class="contact_container w3-card-16 w3-small">
-          <div class="container-fluid">
-            <div class="row contact_form">
-              <div class="col-sm-4 col-sm-push-8 main_container" id="contact_information_container">
-                <div class="col-sm-12 main_container contact_form_title">
-                  <h3 class="w3-left w3-text-white">Información de contacto</h3>
-                </div>
-                <div class="col-sm-12 form-group">
-                  <i class="fa fa-globe fa-2x symbols" aria-hidden="true"> Ciudad de Panamá</i>
-                </div>
-                <div class="col-sm-12 form-group">
-                	<i class="fa fa-phone fa-2x symbols" aria-hidden="true"> Tel: 369-7448</i><br>
-                  <i class="fa fa-mobile fa-2x symbols" aria-hidden="true"> Cel: 6046-6735</i>
-                </div>
-                <div class="col-sm-12 form-group">
-                	<i class="fa fa-map-marker fa-2x symbols" aria-hidden="true"> El Dorado C.C. Plaza Aventura, local 409</i>
-                  <i class="fa fa-map-marker fa-2x symbols" aria-hidden="true"> Brisas del Golf, Plaza Brisas 507, local 66</i>               	
-                </div>
-                <div class="col-sm-12 form-group">
-                	<i class="fa fa-envelope-o fa-2x symbols" aria-hidden="true"> servienvio.pty@gmail.com</i>
-                </div>
+
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-caption clearfix">
+            <div class="col-md-5 contact-info text-left">
+              <h3>Información de contacto</h3>
+
+              <div class="info-detail">
+                <ul><li><i class="fa fa-globe "></i><span> Ciudad de Panamá</span></li></ul><br>
+                <ul><li><i class="fa fa-phone"></i><span>Tel:</span> 396-7448</li></ul>
+                <ul><li><i class="fa fa-mobile"></i><span>Cel:</span> 6043-6735</li></ul><br>
+                <ul><li><i class="fa fa-map-marker"></i>Brisas del Golf, Plaza Brisas 507, local 66. El Dorado </li></ul><br>
+                <ul><li><i class="fa fa-envelope"></i> info@servienvio.com</li></ul>
               </div>
-              <div class="col-sm-8 col-sm-pull-4 main_container" id="contact_form_container">
-                <div class="col-sm-12 main_container contact_form_title">
-                  <h3 class="w3-left">Envíanos un mensaje</h3>
-                </div>
-                <form method="post" id="contactForm" class="form-horizontal w3-margin">
-                  <div class="form-group">
-                    <!--<label class="control-label col-sm-2">Nombre:</label>-->
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="name" placeholder="Nombre">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <!--<label class="control-label col-sm-2" for="email">Email:</label>-->
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control" id="email" placeholder="Correo eletrónico">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <!--<label class="control-label col-sm-2">Teléfono:</label>-->
-                    <div class="col-sm-10">
-                      <input type="tel" class="form-control" id="phoneNumber" placeholder="Teléfono de contacto">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <!--<label class="control-label col-sm-2">Empresa:</label>-->
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="company" placeholder="Nombre de la empresa">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <!--<label class="control-label col-sm-2" for="pwd">Mensaje:</label>-->
-                    <div class="col-sm-10">
-                      <textarea class="form-control" placeholder="Mensaje" id="message" required></textarea>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-sm-10">
-                      <button type="submit" class="btn btn-default">Enviar</button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+            </div>
+
+            <div class="col-md-6 col-md-offset-1 contact-form contactback">
+              <h3>Envíanos un mensaje</h3>
+
+              <form class="form">
+                <input class="name" type="text" placeholder="Nombre">
+                <input class="email" type="email" placeholder="Email">
+                <input class="phone" type="text" placeholder="Teléfono">
+                <input class="company" type="text" placeholder="Nombre de la empresa">
+                <textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <input class="submit-btn" type="submit" value="Enviar">
+              </form>
             </div>
           </div>
         </div>
       </div>
+  </div><!-- end of contact section -->
+
 
       <footer>
         <div class="container">
@@ -278,7 +274,7 @@
         </div><!-- /.copynote -->
       </footer>
     </div>
-
+  </div>
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>

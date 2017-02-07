@@ -10,19 +10,15 @@
 
 .main_container {
   padding: 0 ;
-
-}
-
-#main_container {
-  margin-top: 80px;
 }
 
 #home0 .image-home {
 	background-size: contain;
-	background-position: bottom;
+  background-position: bottom;
 	background-repeat:no-repeat;
 	height: 600px !important;
-	background-attachment: fixed;	
+	background-attachment: fixed;
+  width: 100%;	
 }
 
 #home1 .image-home {
@@ -30,7 +26,7 @@
 	background-position: bottom;
 	background-repeat:no-repeat;
 	height: 600px !important;
-	//background-attachment: fixed;
+	background-attachment: fixed;
 	top: 50px;
 }
 
@@ -43,46 +39,246 @@
 	top: 50px;
 }
 
-.contact_container {
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  margin: auto;
-  width: 60%;
-  height: auto;
-  background-color: white;
+
+/*contact section*/
+
+.contact-caption {
+    background: #0059af;
 }
 
-.contact_form {
-  height: 400px;
-  position: relative;
+.contactback{
+  background-color: #fff;
 }
 
-.contact_form_title {
-  text-align: left;
-  border-bottom: solid 0.5px #A4A4A4;
-  padding: 4px;
-  margin-bottom: 5px;
+.contact-info {
+    padding-left: 40px;
+}
+.contact-info h3 {
+   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    padding-left: 0;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 1px solid #0059af;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+}
+.contact-form h3 {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    padding-left: 0;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 1px solid #0059af;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+}
+.contact-info ul {
+    margin: 0;
+    padding: 0;
+}
+.contact-info ul li {
+    font-size: 20px;
+    color: #fff;
+    list-style: none;
+}
+.contact-info i.fa {
+    font-size: 26px;
+    padding-right: 12px;
+    width: 25px;
+    height: 38px;
+}
+.contact-info ul li span {
+    font-weight: bold;
+}
+.contact-form input {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    font-size: 14px;
+    color: #084a5c;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    padding: 12px;
+    border: solid 0.5px #A4A4A4;
+    margin-bottom: 12px;
+    
+}
+.contact-form textarea {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    padding: 12px;
+    width: 100%;
+    height: 140px;
+    border: 0;
+    margin-bottom: 12px;
+    border: solid 0.5px #A4A4A4;
+}
+.info-detail {
+    border-top: 1px solid #53cde5;
+    padding-top: 15px;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
-#contact_information_container {
-  font-size: 18px;
-  background-color: #0059af;
-  align-items: stretch;
-  position: absolute;
-  height: 100%;
+
+.form {
+    border-top: 1px solid #53cde5;
+    padding-top: 15px;
+    text-align: right;
+}
+.contact-form input.submit-btn {
+    width: 180px;
+    height: 50px;
+    float: right;
+    font-size: 21px;
+    color: #000;
+    background-repeat: no-repeat;
+    padding: 0;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-weight: bold;
+}
+.contact-form {
+    padding-right: 40px;
+  }
+
+.contact {  
+    width: 100%;
+    height: 600px;
+    background: url(../img/5.jpg) no-repeat;
+    background-size: cover;
 }
 
-#contact_form_container {
-  font-size: 14px;
-  background-color: white;
-  align-items: stretch;
-  position: absolute;
+.contact-caption {
+    margin-top: 50px;
 }
 
-.contact_container h3{
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+
+/**MEDIA QUERIES**/
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact { 
+        height: 1050px;
+    }
+    .contact-caption {
+        margin-top: 90px;
+    }
+    #home0 .image-home{
+      background-position: center;
+    }
+    #home1 .image-home{
+      background-position: center;
+    }
+    #home2 .image-home{
+      background-position: center;
+    }
+    #slide2 .image-know-us{
+      background-position: center;
+    }
+    #slide3 .image-what{
+      background-position: center;
+    }
+    #slide4 .image-how{
+      background-position: center;
+    }
 }
 
-.contact_container .symbols{
-  color: #fff;
-  font-size: 18px;
+/* xs */
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .contact {
+        height: 1120px;
+       
+    }
+    .contact-info ul {
+        margin-left: 4px;
+    }
+    .contact-info i.fa {
+        width: 25px;
+    }
+    .contact-caption {
+        margin-top: 140px;
+    }
+    #home0 .image-home{
+      background-position: center;
+    }
+    #home1 .image-home{
+      background-position: center;
+    }
+    #home2 .image-home{
+      background-position: center;
+    }
+    #slide2 .image-know-us{
+      background-position: center;
+    }
+    #slide3 .image-what{
+      background-position: center;
+    }
+    #slide4 .image-how{
+      background-position: center;
+    }
 }
+
+/* XS Portrait */
+
+@media (max-width: 479px) {
+    .contact-caption {
+        margin-top: 38%;
+    }
+    .contact {
+        height: 950px;
+        
+    }
+    .contact-heading h2 {
+        font-size: 50px;
+        text-align: left;
+        margin-left: 15px;
+    }
+    .contact-info h3 {
+        margin-left: 8px;
+        font-size: 25px;
+        padding-bottom: 8px;
+    }
+    .info-detail {
+        margin-left: 8px;
+    }
+    .contact-info ul li {
+        font-size: 10px;
+    }
+    .contact-info i.fa {
+        font-size: 13px;
+        width: 20px;
+        height: 18px;
+    }
+    .contact-info,
+    .contact-form {
+        padding: 10px;
+    }
+    .contact-form h3 {
+        font-size: 25px;
+        padding-bottom: 8px;
+        margin-bottom: 0;
+        margin-right: 0px;
+    }
+    #home0 .image-home{
+      background-position: center;
+    }
+    #home1 .image-home{
+      background-position: center;
+    }
+    #home2 .image-home{
+      background-position: center;
+    }
+    #slide2 .image-know-us{
+      background-position: center;
+    }
+    #slide3 .image-what{
+      background-position: center;
+    }
+    #slide4 .image-how{
+      background-position: center;
+    }
+}
+
+
+
+
