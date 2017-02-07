@@ -18,7 +18,11 @@
 	background-repeat:no-repeat;
 	height: 600px !important;
 	background-attachment: fixed;
+<<<<<<< HEAD
   width: 100%;	
+=======
+ 
+>>>>>>> f67a6f4bd30ed686fae7061db0acb0ee84159bf4
 }
 
 #home1 .image-home {
@@ -278,6 +282,13 @@
     }
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+.contact_container .symbols{
+  color: #fff;
+  font-size: 18px;
+}
+>>>>>>> f67a6f4bd30ed686fae7061db0acb0ee84159bf4
